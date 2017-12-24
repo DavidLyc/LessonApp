@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_bar_background">#374c69</color>
+    <color name="colorAccent">#2b9f20</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="normal_text_color">#504f4f</color>
+    <color name="color_activity">#fafafa</color>
+    <color name="divide_line">#e0e0e0</color>
+</resources>

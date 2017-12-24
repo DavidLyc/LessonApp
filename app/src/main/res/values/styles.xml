@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_bar_background</item>
+        <item name="colorPrimaryDark">@color/color_bar_background</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="EditTextAppearance" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textCursorDrawable">@drawable/edit_text_drawable</item>
+    </style>
+
+    <style name="login_button" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@drawable/login_button</item>
+    </style>
+
+    <style name="normal_TextView" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/normal_text_color</item>
+    </style>
+
+    <style name="register_EditText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textCursorDrawable">@drawable/edit_text_drawable</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:textColor">@color/normal_text_color</item>
+    </style>
+
+    <style name="search_spinner" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">-12dp</item>
+    </style>
+
+</resources>

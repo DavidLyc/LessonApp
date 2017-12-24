@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lesson</string>
+    <string name="input_name">请输入用户名</string>
+    <string name="edit_input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="search">查询</string>
+    <string name="username">用户名:</string>
+    <string name="password">密&#160;&#160;&#160;&#8201;码:</string>
+    <string name="Class">班&#160;&#160;&#160;&#8201;级:</string>
+    <string name="major_choose_tip">请选择专业</string>
+    <string name="class_choose_tip">请选择班级</string>
+</resources>

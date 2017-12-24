@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="8dp">
+
+    <TextView
+        android:id="@+id/register_username_text"
+        style="@style/normal_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/register_username_edit"
+        android:layout_marginBottom="7dp"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/register_username_edit"
+        style="@style/register_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/register_username_text"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/register_password_text"
+        style="@style/normal_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/register_password_edit"
+        android:layout_marginBottom="7dp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/register_password_edit"
+        style="@style/register_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_edit"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/register_password_text"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/register_class_text"
+        style="@style/normal_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/register_class_edit"
+        android:layout_marginBottom="7dp"
+        android:text="@string/Class" />
+
+    <EditText
+        android:id="@+id/register_class_edit"
+        style="@style/register_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password_edit"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/register_class_text"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/register_confirm"
+        style="@style/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_class_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/register" />
+
+</RelativeLayout>
